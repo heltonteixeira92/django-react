@@ -16,4 +16,4 @@ class CustomerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Customers
         # campos que serão serializados
-        fields = ('pk', 'first_name', 'last_name', 'email', 'phone', 'address', 'drescription')
+        fields = ('pk', 'first_name', 'last_name', 'email', 'phone', 'address', 'description')
